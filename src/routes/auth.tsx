@@ -107,7 +107,7 @@ function AuthPage() {
                     required
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
-                    className="glass-input w-full rounded-xl py-3 pl-10 pr-4 text-sm text-foreground placeholder:text-muted-foreground"
+                    className="glass-input w-full rounded-xl py-3 pl-10 pr-4 text-sm text-foreground placeholder:text-muted-foreground shadow-md"
                     placeholder="you@example.com"
                   />
                 </div>
@@ -127,7 +127,7 @@ function AuthPage() {
                     minLength={6}
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
-                    className="glass-input w-full rounded-xl py-3 pl-10 pr-4 text-sm text-foreground placeholder:text-muted-foreground"
+                    className="glass-input w-full rounded-xl py-3 pl-10 pr-4 text-sm text-foreground placeholder:text-muted-foreground shadow-md"
                     placeholder="••••••••"
                   />
                 </div>
